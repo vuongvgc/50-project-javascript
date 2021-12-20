@@ -32,7 +32,7 @@ body {
     flex: 0.5;
     margin: 1rem;
     border-radius: 5rem;
-    transition: flex .4s ease-in;
+    transition: flex .5s ease-in;
 }
 .panel h3 {
     font-size: 2rem;
@@ -47,6 +47,8 @@ body {
 }
 .panel.active {
     flex: 5;
+    transition: flex .5s ease-in;
+
 
 }
 .panel.active h3 {
