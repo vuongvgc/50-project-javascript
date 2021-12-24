@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.bg {
+    background-image: url(https://scontent.fsgn13-1.fna.fbcdn.net/v/t1.6435-9/97511497_1785558924917588_4304368902101532672_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=mXzN0ti_Te0AX-UOPsF&_nc_ht=scontent.fsgn13-1.fna&oh=00_AT-NjHT9hQMwwsdc4-uBTSQUofh3Ku9-oO_GA3h0KxdYaA&oe=61E9F55E);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(20px);
+}
+
+.burry-text {
+    font-size: 5rem;
+}
