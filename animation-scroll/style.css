@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: bisque;
+overflow-x: hidden;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin: 10px;
+}
+.box {
+    height: 200px;
+    width: 400px;
+    background-color: cadetblue;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+}
+.box:nth-of-type(even){
+    transform: translateX(-200%);
+}
+.box.show {
+    transform: translateX(0);
+}
