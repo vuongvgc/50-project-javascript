@@ -32,12 +32,7 @@ h1 {
     position: relative;
     margin-bottom: 3.2rem;
 }
-.form-control label span {
-    display: inline-block;
-    font-size: 1.8rem;
-    min-width: 5px;
-    transition: all .5s cubic-bezier(0.68, -0.55,0.265,1.55);
-}
+
 .form-control input {
     width: 100%;
     color: white;
@@ -45,6 +40,19 @@ h1 {
     border: 0;
     border-bottom: 1px solid lightblue;
 }
+
+.form-control label {
+   position: absolute;
+   left: 0;
+   top: 1.5rem
+}
+.form-control label span {
+    display: inline-block;
+    font-size: 1.8rem;
+    min-width: 5px;
+    transition: all .5s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+
 .form-control input:focus, .form-control input:valid {
     outline: none;
 
