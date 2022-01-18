@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: plum;
+}
+
+.key {
+    display: inline-flex;
+    padding: .5rem 1rem;
+    flex-direction: column;
+    border: 1px solid springgreen;
+    background-color: wheat;
+    text-align: center;
+    margin: 1rem;
+    min-width: 10rem;
+    position: relative;
+}
+
+.key small {
+    position: absolute;
+    top: -2.4rem;
+    width: 100%;
+    text-align: center;
+
+}
